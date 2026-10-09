@@ -1,0 +1,7 @@
+src/pas/npuzzle/planners/AStarPlanner.java
+src/pas/npuzzle/agents/NPuzzleAgent.java
+
+tests/pas/npuzzle/graph/FixedGraph.java
+tests/pas/npuzzle/planners/AStarPlannerTests.java
+tests/pas/npuzzle/agents/NPuzzleAgentTests.java
+tests/pas/npuzzle/RunAllTests.java

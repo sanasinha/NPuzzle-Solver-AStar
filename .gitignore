@@ -1,0 +1,14 @@
+# Course-provided files (not mine to redistribute)
+lib/
+doc/
+*.pdf
+java-install/
+
+# Build output
+*.class
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
