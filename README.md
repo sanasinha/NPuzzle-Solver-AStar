@@ -70,11 +70,5 @@ java -cp "./lib/*:." tests.pas.npuzzle.RunAllTests
 
 On Windows, use `;` instead of `:` in the classpath.
 
-## What I learned
-
-- How to implement A\* efficiently: priority-queue ordering by f = g + h, a best-cost map, and lazy deletion of outdated frontier entries.
-- Why admissibility matters, and how a tighter heuristic (linear conflicts on top of Manhattan distance) cuts the number of nodes expanded.
-- How to design a planner as a reusable component, separate from the domain it is applied to.
-
 ---
 *Coursework for CS 440 at Boston University. The N-puzzle engine, graph types and test scaffolding were provided by the course staff. The planner, agent and heuristic are my own.*
